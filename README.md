@@ -330,7 +330,7 @@ Various bearings and fasteners
 <img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_HomePos.JPEG" alt="BroBot Prototype" width="40%">
 
 ### Working Position
-<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_POS1.JPEG" alt="BroBot Prototype" width="40%">
+<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_Pos_1.JPEG" alt="BroBot Prototype_1" width="40%">
 
 ### Cycloidal Gearbox Detail
 <img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Cycloidgetriebe_Explosionszeichnung.png" alt="BroBot Prototype" width="40%">
