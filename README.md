@@ -2,7 +2,7 @@
 
 A DIY 4-axis robot arm driven by stepper motors with cycloidal reduction gears and inverse kinematics control.
 
-![BroBot Prototype](docs/images/robot_homepos.jpg)
+![BroBot Prototype](brobot/Grafiken/Robot_1_Dauser/Prototyp_1_HomePos.jpg)
 
 ## Table of Contents
 
