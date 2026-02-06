@@ -2,7 +2,7 @@
 
 A DIY 4-axis robot arm driven by stepper motors with cycloidal reduction gears and inverse kinematics control.
 
-![BroBot Prototype](brobot/Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_HomePos.jpg)
+![BroBot Prototype](Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_HomePos.jpg)
 
 BroBot is a DIY robot arm with 4 degrees of freedom (DOF) driven by stepper motors and cycloidal gearboxes. The project includes both the mechanical construction and software control with inverse kinematics for precise TCP positioning (Tool Center Point).
 
