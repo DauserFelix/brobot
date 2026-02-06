@@ -280,11 +280,11 @@ z_tcp = L1 + L2·sin(θ₂) + L3·sin(θ₂+θ₃) + L4·sin(θ₂+θ₃+θ₄)
 ### Working Position
 <img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_Pos_1.JPEG" alt="BroBot Prototype_1" width="40%">
 
-<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Greife_gedruckt.JPEG" alt="BroBot Prototype_1" width="40%">
-
 ## End-Effector: Parallel Gripper with Toggle Mechanism
 
 <img src="Greifer_files/photos/Vorderansicht_schraeg.png" alt="Gripper Perspective" width="400">
+
+<img src="Greifer_files/photos/Greife_gedruckt.JPEG" alt="BroBot Prototype_1" width="40%">
 
 A motorized parallel gripper designed as an end-effector for the BroBot. The gripper uses a NEMA 17 stepper motor driven by the same TB6600 drivers as the robot joints.
 Key Features
