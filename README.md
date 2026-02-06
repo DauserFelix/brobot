@@ -281,25 +281,24 @@ z_tcp = L1 + L2·sin(θ₂) + L3·sin(θ₂+θ₃) + L4·sin(θ₂+θ₃+θ₄)
 <img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_Pos_1.JPEG" alt="BroBot Prototype_1" width="40%">
 
 ## End-Effector: Parallel Gripper with Toggle Mechanism
-<img src="Greifer_files/photos/Draufsicht.png" alt="Gripper Top View" width="400">
 <img src="Greifer_files/photos/Vorderansicht_schraeg.png" alt="Gripper Perspective" width="400">
 A motorized parallel gripper designed as an end-effector for the BroBot. The gripper uses a NEMA 17 stepper motor driven by the same TB6600 drivers as the robot joints.
 Key Features
 
-###Toggle Mechanism: Employs a knee-lever mechanism for mechanical advantage, dramatically amplifying gripping force as the jaws close
+### Toggle Mechanism: Employs a knee-lever mechanism for mechanical advantage, dramatically amplifying gripping force as the jaws close
 Same Hardware: Uses NEMA 17 motor and TB6600 driver (compatible with existing BroBot electronics)
 Parallel Jaws: Ensures even pressure distribution across gripping surfaces
 Compact Design: Lightweight and suitable for mounting on Joint 4/TCP
+<img src="Greifer_files/photos/Draufsicht.png" alt="Gripper Top View" width="400">
 
-
-###Toggle Mechanism Principle
+### Toggle Mechanism Principle
 The gripper uses a toggle (knee-lever) mechanism that provides increasing mechanical advantage as the jaws approach the closed position. This allows high clamping forces with minimal motor torque and enables the gripper to maintain grip even when not actively powered.
 Integration
 The gripper connects mechanically to the BroBot's TCP and electrically to an additional TB6600 driver. Control is integrated into the existing Arduino/Python interface as an additional "Joint 5" for simple open/close commands.
 <img src="Greifer_files/photos/Greifobjekt_gegriffen.png" alt="Example Gripping Object" width="300">
 
 
-###Components
+### Components
 1x NEMA 17 Stepper Motor
 1x TB6600 Driver
 3D printed gripper jaws and toggle linkages
