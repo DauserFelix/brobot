@@ -2,9 +2,7 @@
 
 A DIY 4-axis robot arm driven by stepper motors with cycloidal reduction gears and inverse kinematics control.
 
-<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_HomePos.JPEG" alt="BroBot Prototype" width="60%">
-
-![BroBot Prototype](Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_HomePos.JPEG)
+<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_HomePos.JPEG" alt="BroBot Prototype" width="40%">
 
 BroBot is a DIY robot arm with 4 degrees of freedom (DOF) driven by stepper motors and cycloidal gearboxes. The project includes both the mechanical construction and software control with inverse kinematics for precise TCP positioning (Tool Center Point).
 
@@ -74,7 +72,7 @@ BroBot is a DIY robot arm with 4 degrees of freedom (DOF) driven by stepper moto
 
 ### Cycloidal Gearbox
 
-![Cycloidal Gearbox Exploded View](docs/images/cycloid_exploded.png)
+  <img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Cycloidgetriebe_Explosionszeichnung.png" alt="BroBot Prototype" width="40%">
 
 The cycloidal gearbox provides:
 - High reduction ratios (typically 1:30 to 1:100)
