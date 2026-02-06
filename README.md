@@ -301,7 +301,7 @@ The gripper connects mechanically to the BroBot's TCP and electrically to an add
 
 <img src="Greifer_files/photos/Greifobjekt_gegriffen.png" alt="Example Gripping Object" width="300">
 
-<img src="Greifer_files/photos/Greifer_mit_Objekt_gedruckt.JEPG" alt="Example Gripping Object" width="300">
+<img src="Greifer_files/photos/Greifer_mit_Objekt_gedruckt.JPEG" alt="Example Gripping Object" width="300">
 
 ### Components
 1x NEMA 17 Stepper Motor
