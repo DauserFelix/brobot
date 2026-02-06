@@ -277,6 +277,9 @@ y_tcp = (L2·cos(θ₂) + L3·cos(θ₂+θ₃) + L4·cos(θ₂+θ₃+θ₄)) · 
 z_tcp = L1 + L2·sin(θ₂) + L3·sin(θ₂+θ₃) + L4·sin(θ₂+θ₃+θ₄)
 ```
 
+### Working Position
+<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_Pos_1.JPEG" alt="BroBot Prototype_1" width="40%">
+
 ## End-Effector: Parallel Gripper with Toggle Mechanism
 <img src="Greifer_files/photos/Draufsicht.png" alt="Gripper Top View" width="400">
 <img src="Greifer_files/photos/Vorderansicht_schraeg.png" alt="Gripper Perspective" width="400">
@@ -326,16 +329,9 @@ Various bearings and fasteners
 - Check if Arduino is connected
 - Close Arduino IDE Serial Monitor if open
 
-## Gallery
 
-### Home Position
-<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_HomePos.JPEG" alt="BroBot Prototype" width="40%">
 
-### Working Position
-<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_Pos_1.JPEG" alt="BroBot Prototype_1" width="40%">
 
-### Cycloidal Gearbox Detail
-<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Cycloidgetriebe_Explosionszeichnung.png" alt="BroBot Prototype" width="40%">
 
 
 
