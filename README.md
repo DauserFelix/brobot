@@ -277,6 +277,29 @@ y_tcp = (L2·cos(θ₂) + L3·cos(θ₂+θ₃) + L4·cos(θ₂+θ₃+θ₄)) · 
 z_tcp = L1 + L2·sin(θ₂) + L3·sin(θ₂+θ₃) + L4·sin(θ₂+θ₃+θ₄)
 ```
 
+End-Effector: Parallel Gripper with Toggle Mechanism
+<img src="Grafiken/Endeffektor/Draufsicht.png" alt="Gripper Top View" width="400">
+<img src="Grafiken/Endeffektor/Vorderansicht_schraeg.png" alt="Gripper Perspective" width="400">
+A motorized parallel gripper designed as an end-effector for the BroBot. The gripper uses a NEMA 17 stepper motor driven by the same TB6600 drivers as the robot joints.
+Key Features
+
+Toggle Mechanism: Employs a knee-lever mechanism for mechanical advantage, dramatically amplifying gripping force as the jaws close
+Same Hardware: Uses NEMA 17 motor and TB6600 driver (compatible with existing BroBot electronics)
+Parallel Jaws: Ensures even pressure distribution across gripping surfaces
+Compact Design: Lightweight and suitable for mounting on Joint 4/TCP
+
+Toggle Mechanism Principle
+The gripper uses a toggle (knee-lever) mechanism that provides increasing mechanical advantage as the jaws approach the closed position. This allows high clamping forces with minimal motor torque and enables the gripper to maintain grip even when not actively powered.
+Integration
+The gripper connects mechanically to the BroBot's TCP and electrically to an additional TB6600 driver. Control is integrated into the existing Arduino/Python interface as an additional "Joint 5" for simple open/close commands.
+<img src="Grafiken/Endeffektor/1770372209975_grafik.png" alt="Example Gripping Object" width="300">
+Components
+
+1x NEMA 17 Stepper Motor
+1x TB6600 Driver
+3D printed gripper jaws and toggle linkages
+Various bearings and fasteners
+
 ## Troubleshooting
 
 ### Common Issues
@@ -304,10 +327,13 @@ z_tcp = L1 + L2·sin(θ₂) + L3·sin(θ₂+θ₃) + L4·sin(θ₂+θ₃+θ₄)
 ## Gallery
 
 ### Home Position
-![Home Position](docs/images/home_position.jpg)
+<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_HomePos.JPEG" alt="BroBot Prototype" width="40%">
 
 ### Working Position
-![Work Position](docs/images/work_position.jpg)
+<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Prototyp_1_POS1.JPEG" alt="BroBot Prototype" width="40%">
 
 ### Cycloidal Gearbox Detail
-![Cycloidal Gear](docs/images/cycloid_detail.png)
+<img src="Grafiken/Robot_1_Dauser/Robot_1_Dauser/Cycloidgetriebe_Explosionszeichnung.png" alt="BroBot Prototype" width="40%">
+
+
+
